@@ -3,7 +3,7 @@
 let ggbParameters = {
   id: "ggb",
   prerelease: false,
-  width: 600,
+  width: 900,
   height: 500,
   showToolBar: false,
   borderColor: null,
