@@ -40,3 +40,4 @@ function evalInput(strInput) {
   ggb.evalCommand(strInput);
   return false;
 }
+
