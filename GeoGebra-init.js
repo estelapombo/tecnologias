@@ -34,7 +34,9 @@ let applet = new GGBApplet(ggbParameters, true);
 //when used with Math Apps Bundle, uncomment this:
 //applet.setHTML5Codebase('GeoGebra/HTML5/5.0/webSimple/');
 
-window.onload = function () {};
+window.onload = function () {
+	applet.inject('applet_container1', 'preferHTML5');
+	};
 
 function evalInput(strInput) {
   ggb.evalCommand(strInput);
